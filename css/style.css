@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bookmarks-container {
+    height: 67vh;
+    overflow-y: auto;
+}
+
+.bookmark {
+    /* background: rgb(170, 217, 255); */
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+}
+
+.bookmark p {
+    font-size: 13px;
+}
+
+.visit-btn {
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.visit-btn:hover {
+    background: #007bff;
+    color: white;
+}
+
+.bookmark i {
+    cursor: pointer;
+    color: rgb(121, 121, 121);
+}
+
+.bookmark i:hover {
+    color: rgb(0, 0, 0);
+}
